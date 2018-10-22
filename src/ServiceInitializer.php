@@ -1,5 +1,5 @@
 <?php
-namespace Ketanninja1993\YTdownloader;
+namespace KeTanKuMbhar\YTdownloader;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -9,6 +9,6 @@ class ServiceInitializer extends ServiceProvider{
         $this->loadRoutesFrom(__DIR__.'/routes/send.php');
     }
     public function register(){
-        $this->app->make('Ketanninja1993\YTdownloader\Handlers\ServiceHandler');
+        $this->app->make('KeTanKuMbhar\YTdownloader\Handlers\ServiceHandler');
     }
 }
