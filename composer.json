@@ -1,5 +1,5 @@
 {
-    "name": "KeTanKuMbhar/ytdownloader",
+    "name": "ketankumbhar/ytdownloader",
     "description": "Youtube Video Downloder package for Laravel",
     "type": "library",
     "license": "MIT",
@@ -23,7 +23,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "KeTanKuMbhar\\YTdownloader\\": "KeTanKuMbhar/ytdownloader/src/"
+            "KeTanKuMbhar\\YTdownloader\\": "ketankumbhar/ytdownloader/src/"
         }
     },
     "minimum-stability": "dev",
