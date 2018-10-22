@@ -1,0 +1,31 @@
+{
+    "name": "ketanninja1993/ytdownloader",
+    "description": "This is library which will download all YouTube videos",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "KeTan KuMbhar",
+            "email": "ketanninja1993@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ketanninja1993\\YTdownloader\\ServiceInitializer"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Ketanninja1993\\YTdownloader\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ketanninja1993\\YTdownloader\\": "ketanninja1993/ytdownloader/src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
